@@ -1,0 +1,2584 @@
+body{
+    position: relative;
+    width: 1600px;
+    height: 2853px;
+    margin: 0px;
+    
+    background: #f9f9f9;
+}
+
+a{
+    text-decoration: none
+}
+.logo{
+    position: absolute;
+    width: 161px;
+    height: 19px;
+    left: 200px;
+    top: 53px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 128%;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #000000;
+}
+.слоган{
+    position: absolute;
+    width: 440px;
+    height: 194px;
+    left: 200px;
+    top: 118px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 128%;
+    color: #000000;
+}
+.main1-img{
+    position: absolute;
+    width: 620px;
+    height: 620px;
+    left: 796px;
+    top: 116px;
+}
+.слоган2{
+    position: absolute;
+    width: 326px;
+    height: 40px;
+    left: 200px;
+    top: 357px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 143%;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    
+    color: #000000;
+}
+.галочка{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    left: 200px;
+    top: 420px;
+    
+}
+.me1{
+    position: absolute;
+    left: 250px;
+    top: 420px;
+}
+.галочка2 {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    left: 200px;
+    top: 460px;
+
+}
+.me2{
+    position: absolute;
+    left: 250px;
+    top: 460px;
+}
+.галочка3 {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    left: 200px;
+    top: 500px;
+
+}
+
+.me3 {
+    position: absolute;
+    width: 500px;
+    height: 30px;
+    left: 250px;
+    top: 500px;
+}
+.pay{
+    position: absolute;
+    text-decoration:none;
+    width: 153px;
+    height: 21px;
+    top: 53px;
+    left: 733px;
+    /* Текст меню */
+    
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 143%;
+    /* or 21px */
+    
+    
+    color: #000000;
+    
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+.mi{
+    position: absolute;
+    text-decoration:none;
+    width: 64px;
+    height: 21px;
+    top: 53px;
+    left: 901px;
+    /* Текст меню */
+    
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 143%;
+    /* or 21px */
+    
+    
+    color: #000000;
+    
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+}
+.catalog{
+    position: absolute;
+    top: 53px;
+    left: 636px;
+    width: 63px;
+    height: 21px;
+    text-decoration: none;
+    /* Текст меню */
+    
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 143%;
+    /* or 21px */
+    
+    
+    color: #000000;
+    
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+.main2{
+    position: relative;
+    width: 1200px;
+    height: 567px;
+    left: 200px;
+    top: 860px;
+    
+    background: #EAEFFC;
+    border-radius: 5px;
+}
+.main2_h2{
+    position: absolute;
+    width: 218px;
+    height: 45px;
+    left: 491px;
+    top: 30px;
+    
+    
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 128%;
+    /* identical to box height, or 45px */
+    
+    
+    color: #000000;
+}
+.карта_товара{
+    position: absolute;
+    left: 20px;
+    top: 100px;
+    width: 332px;
+    height: 242px;
+
+
+}
+.карта_заголовок{
+    position: absolute;
+    top: 362px;
+    left: 20px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 128%;
+    /* or 26px */
+    
+    
+    color: #000000
+}
+.карта_цена{
+    position: absolute;
+    top: 362px;
+    left: 256px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 128%;
+    color: #000000;
+
+}
+.карта_опис{
+    position: absolute;
+    top: 392px;
+    left: 20px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 143%;
+    color: rgba(0, 0, 0, 0.5);
+
+}
+.карта_товара2 {
+    position: absolute;
+    left: 434px;
+    top: 100px;
+    width: 332px;
+    height: 242px;
+
+
+}
+
+.карта_заголовок2 {
+    position: absolute;
+    top: 362px; 
+    left: 434px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 128%;
+    color: #000000;
+}
+.карта_цена2{
+    position: absolute;
+    top: 362px;
+    left: 670px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 128%; 
+    color: #000000;
+}
+.карта_опис2{
+    position: absolute;
+    top: 392px;
+    left: 434px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 143%;
+    color: rgba(0, 0, 0, 0.5);
+}
+.карта_товара3 {
+    position: absolute;
+    left: 813px;
+    top: 100px;
+    width: 332px;
+    height: 242px;
+}
+.карта_заголовок3 {
+    position: absolute;
+    top: 362px;
+    left: 833px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 128%;
+    color: #000000;
+}
+.карта_цена3 {
+    position: absolute;
+    top: 362px;
+    left: 1069px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 128%;
+    color: #000000;
+}
+.карта_опис3 {
+    position: absolute;
+    top: 392px;
+    left: 833px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 143%;
+    color: rgba(0, 0, 0, 0.5);
+
+}
+.main3{
+    position: relative;
+    width: 1200px;
+    height: 567px;
+    left: 203px;
+    top: 1000px;
+    
+    background: rgba(38, 45, 219, 0.15);
+    border-radius: 5px;
+}
+.main3_logo{
+    position: absolute;
+    width: 527px;
+    height: 45px;
+    left: 80px;
+    top: 100px;
+    
+    /* h2 */
+    
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 128%;
+     /* identical to box height, or 45px */
+
+    
+    color: #000000;
+}
+.main3_img{
+    position: absolute;
+    width: 410px;
+    height: 367px;
+    left: 710px;
+    top: 100px;
+
+
+}
+.main3_h3{
+    position: absolute;
+    width: 306px;
+    height: 40px;
+    left: 80px;
+    top: 175px;
+    
+     /* h3 */
+    
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 143%;
+    /* or 20px */
+    
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    
+    color: #000000;
+}
+.main3_why_mi{
+    position: absolute;
+    top: 235px;
+    left: 120px;
+    width: 284px ;
+    height: 23px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 143%; 
+    color: #000000;
+
+}
+.main3_why_mi2{
+    position: absolute;
+    top: 275px;
+    left: 120px;
+    width: 258px ;
+    height: 23px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 143%;
+    color: #000000;
+
+}
+.main3_why_mi3{
+    position: absolute;
+    top: 305px;
+    left: 120px;
+    width: 400px;
+    height: 46px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 143%; 
+    color: #000000;
+}
+.галочка4{
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    left: 83px;
+    top: 235px;
+}
+.галочка5{
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    left: 83px;
+    top: 275px;
+}
+.галочка6{
+    position: absolute;
+    top: 305px;
+    left: 83px;
+    width: 24px;
+    height: 24px;
+}
+.footer{
+    position: absolute;
+    width: 1200px;
+    height: 567px;
+    left: 203px;
+    top: 2254px;
+    background: #EEEEEE;
+}
+.footer_logo{
+    position: absolute;
+    width: 159px;
+    height: 19px;
+    top: 106px;
+    left: 505px;
+    
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 128%;
+    /* or 19px */
+    
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    
+    color: #000000;
+    
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+.pc_img{
+    position: absolute;
+    width: 30px;
+    height: 24px;
+    left: 673.12px;
+    top: 103px;
+
+
+}
+.phone{
+    position: absolute;
+    top: 205px;
+    left: 80px;
+    width: 80px;
+    height: 20px;
+    
+    /* Подзаголовок */
+    
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 143%;
+    /* identical to box height, or 20px */
+    
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    
+    color: #000000;
+    
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+.phone_number{
+    position: absolute;
+    top: 239px;
+    left: 80px;
+    width: 146px;
+    height: 20px;
+    
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 128%;
+    
+    
+    color: #000000;
+    
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+
+}
+.network{
+    position: absolute;
+    top: 289px;
+    left: 80px;
+    width: 164px;
+    height: 20px;
+    
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 143%;
+    
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    
+    color: #000000;
+    
+    
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+.tg{
+    position: absolute;
+    top: 344px;
+    left: 112px;
+    width: 183px;
+    height: 20px;
+    text-decoration: none;
+    
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 128%;
+    
+    
+    color: #000000;
+    
+
+    
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+.instagram{
+    position: absolute;
+    top: 399px;
+    left: 112px;
+    width: 158px;
+    height: 20px;
+    text-decoration: none;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 128%;    
+    
+    color: #000000;
+    
+
+    
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+.tg_img{
+    position: absolute;
+    left: 80px;
+    top: 339px;
+    width: 25px;
+    height: 25px;
+    
+    
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+.instagram_img {
+    position: absolute;
+    left: 80px;
+    top: 394px;
+    width: 25px;
+    height: 25px;
+
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+.info{
+    position: absolute;
+    top: 205px;
+    left: 480px;
+    width: 109px;
+    height: 20px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 143%;
+
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    
+    color: #000000;
+    
+    
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+
+}
+.reviews{
+    position: absolute;
+    top: 238px;
+    left: 480px;
+    width: 176px;
+    height: 20px;
+    text-decoration: none;
+    
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 128%;
+
+    
+    color: #000000;
+    
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+.Privacy_Policy{
+    position: absolute;
+    text-decoration: none;
+    top: 273px;
+    left: 480px;
+    width: 229px;
+    height: 20px;
+    
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 128%;
+ 
+    
+    
+    color: #000000;
+    
+
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+
+}
+.About_us{
+    position: absolute;
+    top: 307px;
+    left: 480px;
+    width: 69px;
+    height: 20px;
+    text-decoration: none;
+    
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 128%;
+
+    
+    color: #000000;
+    
+    
+
+    flex: none;
+    order: 3;
+    flex-grow: 0;
+
+}
+.footer_pay{
+    position: absolute;
+    top: 205px;
+    left: 880px;
+    width: 189px;
+    height: 20px;
+    
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 143%;
+
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    
+    color: #000000;
+    
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+.footer_pay1{
+    position: absolute;
+    top: 239px;
+    left: 880px;
+    width: 162px;
+    height: 20px;
+    text-decoration: none;
+    
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 128%;
+
+    
+    color: #000000;
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+.Product_return{
+    position: absolute;
+    top: 271px;
+    left: 880px;
+    width: 169px;
+    height: 20px;
+    text-decoration: none;
+    
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 128%;
+
+    
+    
+    color: #000000;
+    
+
+    
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+}
+.catalog_button{
+    border: none;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 15px;
+    gap: 10px;
+    
+    position: absolute;
+    width: 220px;
+    height: 56px;
+    left: 200px;
+    top: 637px;
+    
+    /* Акценти */
+    
+    background: #265FDB;
+    border-radius: 30px;
+}
+.catalog_p{
+    width: 169px;
+    height: 26px;
+    align-items: center;
+    
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 143%;
+
+    
+    
+    color: #FFFFFF;
+
+    
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+.catalog_img{
+    width: 18px;
+    height: 12px;
+
+    
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+.Basket{
+    position: absolute;
+    top: 52px;
+    left: 1323px;
+    width: 54px;
+    height: 21px;
+    text-decoration: none;
+    
+    /* Текст меню */
+    
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 143%;
+     /* or 21px */
+    
+    
+    color: #000000;
+    
+    
+     /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+
+}
+.Basket_img{
+    position: absolute;
+    top: 53px;
+    left: 1372px;
+    width: 18px;
+    height: 21px;
+}
+#search-form {
+    position: absolute;
+    width: 206px;
+    height: 29px;
+    padding-left: 20px;
+    padding-right: 20px;
+    left: 1051px;
+    top: 52px;
+    border-radius: 40px;
+    outline: none;
+    color: aqua;
+
+}
+
+.search-img {
+    position: absolute;
+    top: 58px;
+    left: 1054px;
+    width: 18px;
+    height: 18px;
+
+}
+.catalog_buttom{
+    border:none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 15px;
+    gap: 10px;
+
+    position: absolute;
+    width: 220px;
+    height: 56px;
+    left: 200px;
+    top: 589px;
+
+    /* Акценти */
+
+    background: #265FDB;
+    border-radius: 30px;
+}
+.catalog_p{
+    text-decoration: none;
+    position: absolute;
+    width: 169px;
+    left: 15px;
+    top: 13px;
+    height: 26px;
+    
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 143%;
+    
+    color: #FFFFFF;
+    
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+
+}
+.catalog_buttom3 {
+    border: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 15px;
+    gap: 10px;
+
+    position: absolute;
+    width: 220px;
+    height: 56px;
+    left: 80px;
+    top:  456px;
+
+    /* Акценти */
+
+    background: #265FDB;
+    border-radius: 30px;
+}
+
+.catalog_p3 {
+    text-decoration: none;
+    position: absolute;
+    width: 169px;
+    left: 15px;
+    top: 15px;
+    height: 26px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 143%;
+
+    color: #FFFFFF;
+
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+
+}
+.basket1{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10px 15px;
+    gap: 10px;
+    border: none;
+    
+    position: absolute;
+    width: 128px;
+    height: 43px;
+    left: 20px;
+    top: 457px;
+    
+    background: #265FDB;
+    border-radius: 30px;
+}
+.basket2 {
+    display: flex;
+    border: none;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10px 15px;
+    gap: 10px;
+
+    position: absolute;
+    width: 128px;
+    height: 43px;
+    left: 434px;
+    top: 457px;
+
+    background: #265FDB;
+    border-radius: 30px;
+}
+.basket3 {
+    border: none;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10px 15px;
+    gap: 10px;
+
+    position: absolute;
+    width: 128px;
+    height: 43px;
+    left: 833px;
+    top: 457px;
+
+    background: #265FDB;
+    border-radius: 30px;
+}
+.basket1_p{
+    width: 73px;
+    height: 23px;
+    
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 143%;
+
+    color: #060606;
+    
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+.basket2_p {
+    width: 73px;
+    height: 23px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 143%;
+
+    color: #000000;
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+.basket3_p {
+    width: 73px;
+    height: 23px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 143%;
+
+    color: #000000;
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+.basket_img1{
+    left: 93px;
+    position: absolute;
+    width: 24px;
+    height: 24px;
+}
+.basket_img2 {
+    left: 93px;
+    position: absolute;
+    width: 24px;
+    height: 24px;
+}
+.basket_img3 {
+    left: 93px;
+    position: absolute;
+    width: 24px;
+    height: 24px;
+}
+.More_details{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10px 15px;
+    gap: 10px;
+    
+    position: absolute;
+    width: 137px;
+    height: 43px;
+    left: 215px;
+    top: 457px;
+    
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
+}
+.More_details2 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10px 15px;
+    gap: 10px;
+
+    position: absolute;
+    width: 137px;
+    height: 43px;
+    left: 644px;
+    top: 457px;
+
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
+}
+.More_details3 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10px 15px;
+    gap: 10px;
+
+    position: absolute;
+    width: 137px;
+    height: 43px;
+    left: 1028px;
+    top: 457px;
+
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
+}
+.p_details{
+    width: 107px;
+    height: 23px;
+    
+
+    
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 143%;
+
+    color: rgba(0, 0, 0, 0.5);
+    
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+
+}
+.p_details2 {
+    width: 107px;
+    height: 23px;
+
+
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 143%;
+
+    color: rgba(0, 0, 0, 0.5);
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+
+}
+.p_details3 {
+    width: 107px;
+    height: 23px;
+
+
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 143%;
+
+    color: rgba(0, 0, 0, 0.5);
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+
+}
+.стрелочка{
+    position: absolute;
+    left: 180px;
+
+    width: 24px;
+    height: 24px;
+}
+.стрелочка1{
+    position: absolute;
+    left: 180px;
+
+    width: 24px;
+    height: 24px;
+}
+.navbar1{
+    position: absolute;
+    width: 1600px;
+    height: 89px;
+    left: 0px;
+    top: 0px;
+    
+    
+    background: rgba(144, 168, 244, 0.8);
+}
+.logo1{
+    position: absolute;
+    width: 161px;
+    height: 19px;
+    top: 38px;
+    left: 200px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 128%;
+        /* or 19px */
+    
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    
+    color: #000000;
+}
+#search-form1 {
+    position: absolute;
+    width: 206px;
+    height: 29px;
+    padding-left: 20px;
+    padding-right: 20px;
+    left: 1051px;
+    top: 43px;
+    border-radius: 40px;
+    outline: none;
+    color: aqua;
+
+}
+
+.search-img1 {
+    position: absolute;
+    top: 50px;
+    left: 1054px;
+    width: 18px;
+    height: 18px;
+
+}
+.about_the_store{
+    position: absolute;
+    width: 1200px;
+    height: 198px;
+    left: 200px;
+    top: 50px;
+}
+.about_logo{
+    position: absolute;
+    width: 189px;
+    height: 20px;
+    left: 506px;
+    top: 49px;
+    
+    /* h3 */
+    
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 143%;
+    /* identical to box height, or 20px */
+    
+    text-align: center;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    
+    color: #000000;
+}
+.about_the_store_p{
+    position: absolute;
+    width: 1200px;
+    height: 81px;
+    left: 0px;
+    top: 89px;
+    
+        /* h4 */
+    
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 143%;
+        /* or 23px */
+    
+    
+    color: #000000;
+}
+.about_img{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    top: 49px;
+}
+.about_home{
+    position: absolute;
+    text-decoration: none;
+    top: 49px;
+    left: 25px;
+    width: 95px;
+    height: 23px;
+    
+
+    
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 143%;
+
+    text-align: center;
+    
+    color: #265FDB;
+    
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+.footer_about{
+    position: absolute;
+    width: 1200px;
+    height: 567px;
+    left: 203px;
+    top: 378px;
+    background: #EEEEEE;
+
+}
+.pc_img1{
+        position: absolute;
+        width: 30px;
+        height: 24px;
+        left: 673.12px;
+        top: 112px;
+
+}
+a{
+    text-decoration: none;
+}
+.policy{
+    position: absolute;
+    width: 1600px;
+    height: 2610px;
+    left: 0px;
+    top: 0px;
+    
+    background: #ffffff;
+
+}
+.Privacy_Policy_aboutus{
+    position: absolute;
+    width: 1200px;
+    height: 1733px;
+    left: 200px;
+    top: 50px;
+}
+.h3_policy{
+    position: absolute;
+    width: 509px;
+    height: 40px;
+    left: 346px;
+    top: 49px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 143%;
+
+    text-align: center;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    
+        color: #000000;
+}
+.policy_term{
+    position: absolute;
+    width: 71px;
+    height: 23px;
+    left: 565px;
+    top: 109px;
+    
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 143%;
+        /* identical to box height, or 23px */
+    
+    text-align: center;
+    
+    color: #000000;
+}
+.policy_p{
+    position: absolute;
+    width: 1200px;
+    height: 1807px;
+    left: 0px;
+    top: 132px;
+    
+        /* h4 */
+    
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 143%;
+        /* or 23px */
+    
+    
+    color: #000000;
+}
+.HW_8_PRO_MAX{
+    position: absolute;
+    width: 372px;
+    height: 400px;
+    left: 0px;
+    top: 198px;
+}
+.HW8_img{
+    position: absolute;
+    width: 332px;
+    height: 242px;
+    left: 20px;
+}
+.HW8_name{
+    position: absolute;
+    left: 5.38%;
+    right: 33.33%;
+    top: 250px;
+    bottom: 28.25%;
+    
+    /* Заголовок маленький внутри секций */
+    
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 128%;
+    /* or 26px */
+    
+    
+    color: #000000;
+}
+.HW8_Shop{
+    position: absolute;
+    left: 256px ;
+    top: 250px;
+    bottom: 28.25%;
+    
+    /* Заголовок маленький внутри секций */
+    
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 128%;
+    /* or 26px */
+    
+    
+    color: #000000;
+}
+.HW8_abouts{
+    position: absolute;
+    left: 5.38%;
+    right: 5.38%;
+    top: 73%;
+    bottom: 14.5%;
+    
+    /* Текст меню */
+    
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 143%;
+    /* or 21px */
+    
+    
+    color: rgba(0, 0, 0, 0.5);
+}
+.basket_watch{
+    border: none;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10px 15px;
+    gap: 10px;
+    
+    position: absolute;
+    width: 128px;
+    height: 43px;
+    left: 20px;
+    top: 357px;
+    
+    background: #265FDB;
+    border-radius: 30px;
+}
+.basket_watch_a{
+    width: 73px;
+    height: 23px;
+    
+    /* h4 */
+    
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 143%;
+    /* identical to box height, or 23px */
+    
+    
+    color: #000000;
+    
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+.button_about{
+    display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 10px 15px;
+        gap: 10px;
+    
+        position: absolute;
+        width: 137px;
+        height: 43px;
+        left: 215px;
+        top: 357px;
+    
+        background: #FFFFFF;
+        border: 1px solid rgba(0, 0, 0, 0.5);
+        border-radius: 30px;
+}
+.watch_about_a{
+    width: 107px;
+        height: 23px;
+    
+        /* h4 */
+    
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 143%;
+        /* identical to box height, or 23px */
+    
+    
+        color: rgba(0, 0, 0, 0.5);
+    
+    
+        /* Inside auto layout */
+    
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+}
+.HW_8_PRO_MAX_2{
+    position: absolute;
+    width: 372px;
+    height: 400px;
+    left: 414px;
+    top: 198px;
+}
+.GS8_Pro_Max{
+    position: absolute;
+    width: 372px;
+    height: 400px;
+    left: 828px;
+    top: 198px;
+}
+.GS8_Pro_Max_2{
+    position: absolute;
+    width: 372px;
+    height: 400px;
+    left: 2px;
+    top: 648px;
+}
+.HW8_ultra{
+    position: absolute;
+    width: 372px;
+    height: 400px;
+    left: 416px;
+    top: 648px;
+}
+.HW8_ultra_MAX{
+    position: absolute;
+    width: 372px;
+    height: 400px;
+    left: 830px;
+    top: 648px;
+}
+.N8_ultra{
+    position: absolute;
+    width: 372px;
+    height: 400px;
+    left: -2px;
+    top: 1098px;
+}
+.N8_ultra2{
+    position: absolute;
+    width: 372px;
+    height: 400px;
+    left: 412px;
+    top: 1098px;
+}
+.N8_ultra_plus{
+    position: absolute;
+    width: 372px;
+    height: 400px;
+    left: 826px;
+    top: 1098px;
+}
+.Zordai_Ultra_max{
+    position: absolute;
+    width: 372px;
+    height: 400px;
+    left: 0px;
+    top: 1548px;
+}
+.Zordai_Ultra_max2{
+    position: absolute;
+    width: 372px;
+    height: 400px;
+    left: 414px;
+    top: 1548px;
+}
+.GS8_ultra_plus{
+    position: absolute;
+    width: 372px;
+    height: 400px;
+    left: 828px;
+    top: 1548px;
+}
+.GS8_ultra_MINI{
+    position: absolute;
+    width: 372px;
+    height: 400px;
+    left: 2px;
+    top: 1998px;
+}
+.GS8_ultra_max{
+    position: absolute;
+    width: 372px;
+    height: 400px;
+    left: 416px;
+    top: 1998px;
+}
+.GS8_ultra_max2{
+    position: absolute;
+    width: 372px;
+    height: 400px;
+    left: 830px;
+    top: 1998px;
+}
+.footer_watch{
+    position: absolute;
+    width: 1200px;
+    height: 567px;
+    left: 200px;
+    top: 2677px;
+    
+    background: #EEEEEE;
+}
+.AirpodsPro{
+    position: absolute;
+    width: 372px;
+    height: 400px;
+    left: 0px;
+    top: 198px;
+}
+.Airpods_img{
+    position: absolute;
+    left: 20px;
+    top: 0px;
+    width: 332px;
+    height: 242px;
+}
+.name_airpods {
+    position: absolute;
+    left: 5.38%;
+    right: 33.33%;
+    top: 250px;
+    bottom: 28.25%;
+
+    /* Заголовок маленький внутри секций */
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 128%;
+    /* or 26px */
+
+
+    color: #000000;
+
+}
+.price{
+        position: absolute;
+            left: 256px;
+            top: 250px;
+            bottom: 28.25%;
+        
+            /* Заголовок маленький внутри секций */
+        
+            font-family: 'Montserrat';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 20px;
+            line-height: 128%;
+            /* or 26px */
+        
+        
+            color: #000000;
+
+}
+.about_airpods{
+    position: absolute;
+        left: 5.38%;
+        right: 5.38%;
+        top: 73%;
+        bottom: 14.5%;
+    
+        /* Текст меню */
+    
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 15px;
+        line-height: 143%;
+        /* or 21px */
+    
+    
+        color: rgba(0, 0, 0, 0.5);
+
+}
+.Airpods2{
+    position: absolute;
+    width: 372px;
+    height: 400px;
+    left: 414px;
+    top: 198px;
+}
+.Airpods3{
+    position: absolute;
+    width: 372px;
+    height: 400px;
+    left: 828px;
+    top: 198px;
+}
+.AirpodsPro1{
+    position: absolute;
+    width: 372px;
+    height: 400px;
+    left: 2px;
+    top: 648px;
+}
+.AirpodsPro2{
+    position: absolute;
+    width: 372px;
+    height: 400px;
+    left: 416px;
+    top: 648px;
+}
+.Airpods2_org{
+    position: absolute;
+    width: 372px;
+    height: 400px;
+    left: 830px;
+    top: 648px;
+}
+.Airpods3_org{
+    position: absolute;
+    width: 372px;
+    height: 400px;
+    left: -2px;
+    top: 1098px;
+}
+.footer_aboutus{
+    position: absolute;
+    width: 1200px;
+    height: 567px;
+    left: 200px;
+    top: 1738px;
+    
+    background: #EEEEEE;
+}
+.about_the_store1 {
+    position: absolute;
+    width: 1200px;
+    height: 1206px;
+    left: 200px;
+    top: 50px;
+}
+.headphones_store_img{
+    position: absolute;
+    width: 580px;
+    height: 393px;
+    left: 0px;
+    top: 198px;
+}
+.headphones_store_name{
+    position: absolute;
+    top: 170px;
+    left: 620px;
+    width: 412px;
+    height: 45px;
+    
+        /* h2 */
+    
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 35px;
+        line-height: 128%;
+        /* identical to box height, or 45px */
+    
+        text-align: center;
+    
+        color: #000000;
+    
+    
+        /* Inside auto layout */
+    
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+}
+.headphones_store_aboutus{
+    position: absolute;
+        width: 580px;
+        height: 41px;
+        left: 620px;
+        top: 243px;
+    
+        /* Текст меню */
+    
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 15px;
+        line-height: 143%;
+        /* or 21px */
+    
+    
+        color: rgba(0, 0, 0, 0.5)
+}
+.headphones_store_price{
+    position: absolute;
+    width: 146px;
+    height: 45px;
+    left: 621px;
+    top: 284px;
+    
+        /* h2 */
+    
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 35px;
+    line-height: 128%;
+    /* identical to box height, or 45px */
+    
+    text-align: center;
+    
+     color: #265FDB;
+}
+.headphones_store_basket{
+    padding: 15px 50px;
+
+    border: none;
+    
+    position: absolute;
+    width: 281px;
+    height: 75px;
+    left: 620px;
+    top: 500px;
+    
+    
+    background: #265FDB;
+    border-radius: 30px;
+}
+.headphones_store_basket_p{
+       margin: 0px;
+       width: 136px;
+       height: 45px;
+    
+        /* h2 */
+    
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 35px;
+        line-height: 128%;
+        /* identical to box height, or 45px */
+    
+    
+        color: #000000;
+    
+    
+        /* Inside auto layout */
+    
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+}
+.headphones_store_basket_img{
+    position: absolute;
+    top: 15px;
+    left: 196px;
+    margin: 0px;
+    width: 35px;
+    height: 41px;
+}
+.headphones_store_catalog{
+    box-sizing: border-box;
+    
+    /* Auto layout */
+    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 15px 50px;
+    gap: 10px;
+    
+    position: absolute;
+    width: 280.93px;
+    height: 75px;
+    left: 916px;
+    top: 500px;
+    
+    /* Фоновий для елементів */
+    
+    background: rgba(232, 232, 232, 0.75);
+        /* сірий */
+    
+    border: 1px solid #767676;
+    border-radius: 30px;
+}
+.headphones_store_catalog_a{
+    width: 148px;
+    height: 45px;
+    
+        /* h2 */
+    
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 35px;
+    line-height: 128%;
+    /* identical to box height, or 45px */
+    
+    
+    /* сірий */
+    
+    color: #767676;
+    
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+.headphones_store_catalog_img{
+    top: 15px;
+    width: 35.39px;
+    height: 22.93px;
+}
+.headphones_catalog{
+    /* Auto layout */
+    
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        padding: 15px 50px;
+        gap: 10px;
+    
+        position: absolute;
+        width: 214px;
+        height: 56px;
+        left: 0px;
+        top: 92px;
+    
+        /* Акценти */
+    
+        background: #265FDB;
+        border-radius: 30px;
+        border: none;
+}
+.headphones_catalog_a{
+    width: 114px;
+    height: 26px;
+    
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 143%;
+        /* identical to box height, or 26px */
+    
+    
+        color: #FFFFFF;
+    
+    
+        /* Inside auto layout */
+    
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+}
+.headphones_aboutus{
+    position: absolute;
+    width: 580px;
+    height: 650px;
+    left: 600px;
+    top: 650px;
+    
+    /* Фоновий для елементів */
+    
+    background: rgba(232, 232, 232, 0.75);
+    border-radius: 5px;
+}
+.AirpodsPro_aboutus{
+    position: absolute;
+    width: 166px;
+    height: 120px;
+    left: -1px;
+    top: 631px;
+}
+.AirpodsPro_aboutus2{
+    position: absolute;
+    width: 166px;
+    height: 120px;
+    left: 205px;
+    top: 631px;
+}
+.AirpodsPro_aboutus3{
+    position: absolute;
+    width: 166px;
+    height: 120px;
+    left: 414px;
+    top: 631px;
+}
+.AirpodsPro_aboutus4{
+    position: absolute;
+    width: 167px;
+    height: 120px;
+    left: -2px;
+    top: 791px;
+}
+.AirpodsPro_aboutus5{
+    position: absolute;
+    width: 166px;
+    height: 120px;
+    left: 205px;
+    top: 791px;
+}
+.AirpodsPro_aboutus6{
+    position: absolute;
+    width: 166px;
+    height: 120px;
+    left: 410px;
+    top: 791px;
+}
+.footer_headponescat{
+    position: absolute;
+    width: 1200px;
+    height: 567px;
+    left: 0px;
+    top: 1386px;
+    
+    background: #EEEEEE;;
+}
+.watch{
+    position: absolute;
+    top: 92px;
+    border: none;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 15px 50px;
+    gap: 10px;
+    
+    width: 206px;
+    height: 56px;
+
+    /* Акценти */
+    
+    background: #265FDB;
+    border-radius: 30px;
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+.watch_a{
+    width: 106px;
+    height: 26px;
+    
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 143%;
+
+    
+    
+    color: #FFFFFF;
+    
+    
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+.watch_head{
+    box-sizing: border-box;
+    
+    /* Auto layout */
+    position: absolute;
+    top: 92px;
+    left: 221px;
+    
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 15px 50px;
+    gap: 10px;
+    
+    width: 214px;
+    height: 56px;
+    
+    /* Фоновий для елементів */
+    
+    background: rgba(232, 232, 232, 0.75);
+    border: 1px solid rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
+    
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0
+}
+.watch_a_head{
+    width: 114px;
+    height: 26px;
+    
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 143%;
+        /* identical to box height, or 26px */
+    
+    
+    color: rgba(0, 0, 0, 0.5);
+    
+    
+        /* Inside auto layout */
+    
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+.navbar{
+    position: absolute;
+    width: 1600px;
+    height: 89px;
+    left: 0px;
+    top: 0px;
+    
+    background: rgba(144, 168, 244, 0.8);
+}
+.navbar_catalog{
+    position: absolute;
+    top: 54px;
+    left: 635px;
+    width: 63px;
+    height: 21px;
+    
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 143%;
+        /* or 21px */
+    
+    
+    color: #000000;
+
+    
+        /* Inside auto layout */
+    
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+.navbar_oplata{
+    position: absolute;
+    top: 54px;
+    left: 732px;
+    width: 153px;
+    height: 21px;
+    
+    /* Текст меню */
+    
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 143%;
+    /* or 21px */
+    
+    
+    color: #000000;
+    
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+.navbar_aboutus{
+    position: absolute;
+    top: 54px; 
+    left: 900px;
+    width: 64px;
+    height: 21px;
+    
+    /* Текст меню */
+    
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 143%;
+    /* or 21px */
+    
+    
+    color: #000000;
+    
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+}
+.navbar_basket{
+    position: absolute;
+    top: 54px;
+    left: 1324px ;
+    width: 54px;
+    height: 21px;
+    
+    /* Текст меню */
+    
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 143%;
+    /* or 21px */
+    
+    
+    color: #000000;
+    
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+
+}
+.headphones_watch{
+    position: absolute;
+    top: 92px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 15px 50px;
+    gap: 10px;
+    border: none;
+    width: 214px;
+    height: 56px;
+    
+    
+    background: #265FDB;
+    border-radius: 30px;
+    
+     /* Inside auto layout */
+    
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+.headphones_watch_a{
+    width: 114px;
+    height: 26px;
+    
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 143%;
+    /* identical to box height, or 26px */
+    
+    
+    color: #FFFFFF;
+    
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+.width_aboutus{
+    position: absolute;
+    width: 1200px;
+    height: 1206px;
+    left: 200px;
+    top: 50px;
+
+}
+.watch_name{
+    position: absolute;
+    top: 196px;
+    left: 620px;
+    width: 255px;
+    height: 45px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 35px;
+    line-height: 128%;
+
+    text-align: center;
+    
+    color: #000000;
+    
+
+    
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+.watch_img{
+    position: absolute;
+    width: 580px;
+    height: 393px;
+    left: 0px;
+    top: 198px;
+}
+.watch_abouts{
+    position: absolute;
+    width: 580px;
+    height: 41px;
+    left: 630px;
+    top: 260px;
+    
+    /* Текст меню */
+    
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 143%;
+        /* or 21px */
+    
+    
+    color: rgba(0, 0, 0, 0.5);
+}
+.watch_shop{
+    position: absolute;
+    width: 148px;
+    height: 45px;
+    left: 620px;
+    top: 284px;
+    
+    /* h2 */
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 35px;
+    line-height: 128%;
+    /* identical to box height, or 45px */
+    
+    text-align: center;
+    
+    color: #265FDB;
+}
+.watch_img_about1{
+    position: absolute;
+    width: 166px;
+    height: 120px;
+    left: -1px;
+    top: 631px;
+}
+.watch_img_about2{
+    position: absolute;
+    width: 166px;
+    height: 120px;
+    left: 205px;
+    top: 631px;
+}
+.watch_img_about3{
+    position: absolute;
+    width: 166px;
+    height: 120px;
+    left: 414px;
+    top: 631px;
+}
+.watch_img_about4{
+    position: absolute;
+    width: 167px;
+    height: 120px;
+    left: -2px;
+    top: 791px;
+}
+.watch_characteristic{
+    position: absolute;
+    width: 580px;
+    height: 740px;
+    left: 620px;
+    top: 651px;
+    
+    /* Фоновий для елементів */
+    
+    background: rgba(232, 232, 232, 0.75);
+    border-radius: 5px;
+}
+.watch_options{
+    position: absolute;
+    width: 580px;
+    height: 206px;
+    left: 0px;
+    top: 951px;
+    
+
+    background: rgba(232, 232, 232, 0.75);
+    border-radius: 5px;
+}
+.watch_img_about5{
+    position: absolute;
+    width: 166px;
+    height: 120px;
+    left: 205px;
+    top: 791px;
+}
+.watch_img_about6{
+    position: absolute;
+    width: 166px;
+    height: 120px;
+    left: 410px;
+    top: 791px;
+}
+.footer_watchcat{
+    position: absolute;
+    width: 1200px;
+    height: 567px;
+    left: 200px;
+    top: 1555px;
+
+    background: #EEEEEE;
+    ;
+}
+.watch_name1{
+    position: absolute;
+    top: 198px;
+    left: 620px;
+    width: 301px;
+    height: 45px;
+    
+    /* h2 */
+    
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 35px;
+    line-height: 128%;
+        /* identical to box height, or 45px */
+    
+    text-align: center;
+    
+    color: #000000;
+    
+    
+        /* Inside auto layout */
+    
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+.Privacy_Policy_aboutus1{
+    position: absolute;
+    width: 1200px;
+    height: 1807px;
+    left: 0px;
+    top: 132px;
+}
+.footer_policy{
+    position: absolute;
+    width: 1200px;
+    height: 567px;
+    left: 200px;
+    top: 1800px;
+
+    background: #EEEEEE;
+}
